@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="cascade/style2.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="joguinho">
+        <meta name="keywords" content="jogo, forca">
+        <meta name="author" content="Raphael Tavares">
+        <!--<meta http-equiv="refresh" content="30">-->
+        <title>Forca</title>
+    </head>
+
+    <body>
+        <p>FORCA</p>
+        <div id="letras-enviadas">
+            <span class="letra-enviada errada">a</span>
+            <span class="letra-enviada errada">a</span>
+            <span class="letra-enviada errada">a</span>
+            <span class="letra-enviada certa">a</span>
+        </div>
+        <div id="jogo">
+
+
+            <div class="dados">
+                <div id="vidasforca">
+                </div>
+                <img id="imgForca" src="images/boneco_forca0.png" alt="imagem do menino enforcado"/>
+            </div>
+
+            <div id="palavra-jogo">
+                <span class="letra-jogo"></span>
+                <span class="letra-jogo"></span>
+                <span class="letra-jogo"></span>
+                <span class="letra-jogo"></span>
+                <span class="letra-jogo"></span>
+            </div>
+        </div>
+
+
+        <div id="entrada-jogo">
+            <input type="text" maxLength="1" id="entrada-letra">
+            <button onclick="letraEnviada()" id="btnEnviaLetra">submit</button>
+        </div>
+    </body>
+    <script src="javinha/bancoPalavras.js"></script>
+    <script src="javinha/code2.js"></script>
+
+</html>

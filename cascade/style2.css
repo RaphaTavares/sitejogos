@@ -1,0 +1,94 @@
+body
+{
+    font-family: "Comic Sans MS";
+    font-variant: small-caps;
+    font-size: 50px;
+    text-align: center;
+    background-color: green;
+}
+
+button
+{
+    width: 20%;
+    height: 90px;
+    background-color: palevioletred;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    font-variant: small-caps;
+}
+
+button:hover
+{
+    background-color: rgb(37, 37, 37);
+    color: palevioletred;
+}
+
+#imgForca{
+    max-height: 280px;
+}
+
+#entrada-letra
+{
+    
+    width: 100px;
+    height: 100px;
+    background-color:lightgreen;
+    font-size: 75px;
+}
+
+#jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    background-color: #00000062;
+    padding: 30px 0;
+}
+
+.dados{
+    width:50%;
+
+}
+
+.palavra-jogo{
+    width: 50%;
+}
+
+#letras-enviadas{
+    height: 100px;
+    background-color: rgba(144, 238, 144, 0.336);
+}
+
+.letra-enviada{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 10px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.letra-enviada.certa{
+    background-color: green;
+}
+
+.letra-enviada.errada{
+    background-color: red;
+}
+
+#entrada-jogo{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+#btnEnviaLetra{
+margin-top: 10px;
+}
+
+.letra-jogo{
+    margin: 5px;
+    color: white;
+    border-bottom: 3px solid white;
+}
